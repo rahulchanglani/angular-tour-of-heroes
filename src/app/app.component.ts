@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import { Hero } from './hero';
 import { HeroService } from './hero.service';
+/* heroService = new HeroService(); // don't do this */
 
 @Component({
   selector: 'my-app',
